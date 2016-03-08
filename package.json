@@ -1,11 +1,11 @@
 {
   "name": "vinyl-browserify",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Simplified gulp browserify API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "[ -r ~/.global.npmignore ] && cat ~/.global.npmignore > .npmignore || true"
+    "prepublish": "[ -r ~/.global.gitignore ] && cat ~/.global.gitignore > .npmignore || true"
   },
   "repository": {
     "type": "git",
@@ -23,13 +23,13 @@
   },
   "homepage": "https://github.com/tarruda/vinyl-browserify#readme",
   "dependencies": {
-    "browserify": "^10.2.4",
-    "gulp": "^3.9.0",
-    "has": "^1.0.0",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "has": "^1.0.1",
     "mold-source-map": "^0.4.0",
-    "through2": "^2.0.0",
+    "through2": "^2.0.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "xtend": "^4.0.0"
+    "xtend": "^4.0.1"
   }
 }
